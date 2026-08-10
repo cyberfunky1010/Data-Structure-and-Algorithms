@@ -13,5 +13,9 @@ Solutions are categorized by pattern:
 
 ## 🚀 Usage
 Run any solution directly:
-```bash
-python3 filename.py   
+
+# Windows
+python filename.py
+
+# macOS / Linux
+python3 filename.py
