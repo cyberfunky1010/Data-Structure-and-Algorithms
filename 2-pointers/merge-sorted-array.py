@@ -21,14 +21,8 @@ def merge_sorted_array(arr1, arr2):
             res.append(arr2[j])
             j += 1
 
-
-    while i < n:
-        res.extend(arr1[i:])
-        i += 1
-
-    while j < m:
-        res.extend(arr2[j:])
-        j += 1
+    res.extend(arr1[i:])    # adds the remaining of arr1. this line could also be written using while loop
+    res.extend(arr2[j:])    # adds the remaining of arr2  but this is more pythonic way. 
 
     return res
 
